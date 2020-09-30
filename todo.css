@@ -1,10 +1,10 @@
 h1 {
-    background: #2980b9;
+    background: #71bbec;
     color: white;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: normal;
 }
 
@@ -20,11 +20,12 @@ ul {
 
 body {
     font-family: Roboto;
-    background: #00416A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 li {
@@ -80,4 +81,13 @@ input:focus {
 .completed {
     color: grey;
     text-decoration: line-through;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(8, 54, 82);
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
